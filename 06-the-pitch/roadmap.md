@@ -2,10 +2,14 @@
 
 ## Roadmap
 
-Horizon 1, Ship (0–4 weeks)
-17
-initiatives
- Foundational execution · High confidence
+### Horizon 1 — Now (0-3 months)
+*Quick wins. Ship with existing capabilities.*
+
+| Initiative | Metric | Confidence |
+|-----------|--------|-----------|
+| | | H / M / L |
+| | | H / M / L |
+
 Initiative
 Strategy Component
 Why it ships now
@@ -79,16 +83,13 @@ Guardrails
 Establishes the operating cadence for drift, quality and governance.
 M
 H1 execution principle: Build the evidence infrastructure before building more AI features. In particular, SHOE-13, SHOE-20, SHOE-23 and SHOE-24 are foundational dependencies, not optional platform improvements.
-Horizon 2, Validate (1–3 months)
-15
-initiatives
- Hypothesis-driven validation · Medium confidence
-These initiatives need measurable outcomes, not simply completed tickets. Each kill criterion should be agreed before execution.
-Initiative
-Strategy Component
-Hypothesis
-Kill Criteria
-Confidence
+### Horizon 2 — Next (3-9 months)
+*Bets. Requires new capabilities or integrations.*
+
+| Initiative | Metric | Confidence |
+|-----------|--------|-----------|
+| | | H / M / L |
+| | | H / M / L |
 SHOE-3 · Return, repair & credit loop
 Bet
 A physical return and repair loop creates measurable retention and repeat-purchase value.
@@ -165,18 +166,13 @@ The integrated product and incentive model improves retention, returns and repur
 If the treatment group fails the pre-registered primary outcome or breaches a critical product-safety threshold at six months, stop the bet.
 M
 Important sequencing correction: SHOE-32 must happen before SHOE-33. SHOE-21 must happen before SHOE-22. SHOE-28 and SHOE-29 should precede any board-level claims that the economics are validated.
-I would also distinguish between two different types of validation:
-Product validation: SHOE-11, SHOE-17, SHOE-21 and SHOE-33.
-Business-model validation: SHOE-18, SHOE-26, SHOE-28, SHOE-29, SHOE-30 and SHOE-31.
-Both are necessary. A successful product pilot does not automatically establish a viable business.
-Horizon 3, Explore (3–6 months)
-4
-initiatives
- Learning-dependent bets · Lower confidence
-Initiative
-Strategy Component
-What must be true first
-Confidence
+### Horizon 3 — Bet (9-18 months)
+*Moonshots. High uncertainty, high potential.*
+
+| Initiative | Metric | Confidence |
+|-----------|--------|-----------|
+| | | H / M / L |
+
 SHOE-8 · Next-generation formulation learning
 Moat
 Returned-pair data, formulation traceability and lab degradation evidence must be sufficiently reliable to influence product design.
@@ -193,20 +189,6 @@ SHOE-37 · Gen-2 tuned pair from returned-pair data
 Moat
 The preference and formulation learning loops must produce evidence that a tuned next pair improves fit or durability for the same runner.
 L
-The H3 bet I would protect
-SHOE-37 — Gen-2 tuned pair from returned-pair data.
-This is the most strategically important long-term initiative in the backlog.
-Why?
-Your weakest moat loop is preference (2/5). Strava and Garmin already know how much someone runs. They can estimate mileage and suggest replacement.
-They cannot easily replicate the combination of:
-Original Fit Session data.
-Actual physical wear from the returned shoe.
-Laboratory degradation data.
-Formulation-level traceability.
-A demonstrably better next shoe.
-That is the transition from an app that gives advice to a product system that improves with every pair.
-I would protect SHOE-37 even if it means delaying discretionary app development.
-
 ## Board Pitch
 
 **Thesis (1 sentence):**
